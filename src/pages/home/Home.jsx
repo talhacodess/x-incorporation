@@ -6,6 +6,9 @@ import ring from '../../assets/ring.png'
 import circleMain from '../../assets/main.png'
 import infoGraphy from '../../assets/info.png'
 import career from '../../assets/career.jpeg'
+import clothing from '../../assets/clothing.png'
+import jackets from '../../assets/jackets.png'
+import packaging from '../../assets/packaging.png'
 import ceo from '../../assets/ceo.jpg'
 import {HiOutlineMailOpen} from 'react-icons/hi'
 import {HiOutlinePhone} from 'react-icons/hi'
@@ -51,6 +54,15 @@ function Home() {
                                     </div>
                                   <div className='ring'>
                                   <img className='w-100' src={ring} alt="" />
+                                  </div>
+                                  <div className='float-icon-1'>
+                                  <img  src={clothing} alt="" />
+                                  </div>
+                                  <div className='float-icon-2'>
+                                  <img  src={packaging} alt="" />
+                                  </div>
+                                  <div className='float-icon-3'>
+                                  <img  src={jackets} alt="" />
                                   </div>
                               
                               </div>
