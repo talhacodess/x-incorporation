@@ -1,0 +1,339 @@
+
+#vanta {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+  }
+.home-h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.home-h2{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.p-home{
+    color: #c0d3e4;
+    font-size: 20px;
+}
+.btn-home {
+    padding: 15px 37px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.5s ease;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  /* Hover fill background */
+  .btn-home::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #ef334c;
+    z-index: -1;
+    transition: width 0.5s ease;
+  }
+  
+  .btn-home:hover::before {
+    width: 100%;
+  }
+  
+  /* Text color changes to white on hover */
+  .btn-home:hover {
+    color: #fff;
+  }
+  
+  /* Arrow default style */
+  .btn-home .arrow {
+    color: #ef334c;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+    will-change: transform, color;
+  }
+  
+  /* Arrow movement + color on hover */
+  .btn-home:hover .arrow {
+    transform: translateX(8px);
+    color: #fff;
+  }
+  .Home-sec2{
+    padding-top: 50px;
+  }
+  .p-scroll .p-home{
+    color: #667b8e;
+    font-size: 20px;
+    overflow-y: scroll;
+    height: 400px;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba(20, 19, 19, 0.08);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  }
+  .p-scroll .p-home-2{
+    color: #667b8e;
+    font-size: 20px;
+    overflow-y: scroll;
+    height: 600px;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba(20, 19, 19, 0.08);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  }
+  .p-home-2{
+    color: #667b8e;
+    font-size: 20px;
+
+  }
+  .main-ring{
+    position: relative;
+    width: auto;
+    top: 30px;
+  }
+  
+  .main-circle{
+    position: relative;
+    left: -2%;
+    top: -20px;
+    width: auto;
+    z-index: 10;
+    animation: rotatemeTwo 15s linear infinite;
+
+  }
+  
+  .ring {
+    position: absolute;
+    top: -10%;
+    left: -8%;
+    width: auto;
+    z-index: 1;
+    
+    
+   
+ 
+  }
+  
+  @keyframes rotatemeOne {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-90deg);
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+    
+}
+@keyframes rotatemeTwo {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    25%{
+        transform: rotate(90deg);
+    }
+    
+    50%{
+        transform: rotate(180deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+  .btn-home-2{
+    padding: 15px 37px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.5s ease;
+    color: #000;
+    cursor: pointer;  
+  }
+  /* Hover fill background */
+  
+  /* Text color changes to white on hover */
+  .btn-home-2:hover {
+    color: #223555;
+  }
+  
+  /* Arrow default style */
+  .btn-home-2 .arrow {
+    color: #ef334c;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+    will-change: transform, color;
+  }
+  
+  /* Arrow movement + color on hover */
+  .btn-home-2:hover .arrow {
+    transform: translateX(8px);
+    color: #223555;
+  }
+  .icon-contact-content .icon-contact{
+    background-color: rgb(34,53,85);
+    height: 47px;
+    width: 50px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 22px;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    margin-right: 20px;
+    box-sizing: border-box;
+
+
+}
+.icon-contact-content .icon-contact::after{
+    position: absolute;
+    content: "";
+    top: -8px;
+    left: -8px;
+    height: 65px;
+    width: 65px;
+    z-index: -1;
+    background: rgb(238,51,75);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+.icon-contact-content p{
+    color: #667b8e;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.form-contact{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ 
+ 
+}
+.form-contact button{
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ee334b;
+  border: 1px solid transparent;
+  padding: 16px 42px;
+  font-size: 16px;
+  transition: 0.5s;
+  line-height: 1.5;
+  border-radius: 5px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+ 
+}
+.form-field{
+   
+  padding: 14px 0 14px 25px;
+  background-color: #223555;
+  border-bottom: 1px solid #fff !important;
+  font-family: "Inter";
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 26px;
+  
+}
+.form-field::placeholder{
+  color: #fff;
+}
+.form-field:focus{
+  outline: none;
+}
+.icon-foo{
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  text-align: center;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  background: #223555;
+  border-radius: 100%;
+  z-index: 1;
+}
+.icon-foo:hover::after{
+  
+  width: 100%;
+}
+.icon-foo::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+  z-index: -1;
+  height: 100%;
+  width: 0;
+  border-radius: 100%;
+  background: #ee334b;
+}
+
+@media screen and (max-width:600px){
+  
+  .home-h1 {
+    font-size: 25px !important;
+  }
+
+.home-h2 {
+  font-size: 13px !important;
+}
+.p-home {
+  font-size: 14px !important;
+}
+.btn-home {
+  padding: 10px 15px !important;
+  border-radius: 25px !important;
+  font-size: 15px !important;
+}
+
+}

@@ -1,0 +1,20 @@
+.nav-main{
+  box-shadow: 5px 5px 10px #0e0e0e49;
+  z-index: 1;
+  position: relative;
+
+}
+button.navbar-toggler.collapsed {
+  background-color: #fff;
+}
+img.main-circle {
+  width: 153%;
+}
+.nabarscrolled{
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  transition: 0.5s !important;
+  background: #223555 !important;
+  z-index: 9999 !important;
+  animation-name: slideInDown;
+  animation-duration: 1.5s;
+}
