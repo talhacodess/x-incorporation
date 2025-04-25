@@ -14,7 +14,15 @@ img.main-circle {
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   transition: 0.5s !important;
   background: #223555 !important;
-  z-index: 9999 !important;
   animation-name: slideInDown;
   animation-duration: 1.5s;
+}
+div#offcanvasNavbar-expand-false {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+a.nav-link {
+  font-size: 24px;
+  color: #667b8e;
+  font-weight: 600;
 }

@@ -74,7 +74,7 @@ function Home() {
                     </Container>
                 </div>
             </Container>
-            <div className=' overflow-hidden' style={{ backgroundColor: '#f0f8ff', }}>
+            <div className=' overflow-hidden'  id='Our-Story' style={{ backgroundColor: '#f0f8ff', }}>
                 <Container>
                     <div className='Home-sec2'>
                         <div className='text-center'>
@@ -116,11 +116,11 @@ function Home() {
                 </Container>
             </div>
 
-            <Container className=' overflow-hidden'>
+            <Container className=' overflow-hidden' id='Employment-Opportunities'>
                 <div>
                     <h1 className='home-h1 mt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>Employment <span style={{ color: '#ee334b' }}>Opportunities</span></h1>
                 </div>
-                <div className='row mt-3  justify-content-between align-items-center g-2'>
+                <div className='row my-3  justify-content-between align-items-center g-2'>
 
                     <div className='col-lg-6'>
                         <img src={career} alt=""  height={650} className='w-100 rounded object-fit-cover shadow' />
@@ -167,7 +167,7 @@ function Home() {
 
             </Container>
 
-            <div className=' overflow-hidden' style={{ backgroundColor: '#f0f8ff' }}>
+            <div className=' overflow-hidden' id='CEO-Message' style={{ backgroundColor: '#f0f8ff' }}>
                 <Container>
                     <div>
                         <h1 className='home-h1 pt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>CEO  <span style={{ color: '#ee334b' }}>Message</span></h1>
@@ -218,7 +218,7 @@ function Home() {
             </div>
 
 
-            <Container className=' overflow-hidden'>
+            <Container className=' overflow-hidden' id='Contact-US'>
                 <div className='d-flex flex-column align-items-center pt-5 my-5 gap-3 '>
                     <button className='btn-home-2'>
                         Contact US <span className='arrow'>➜</span>

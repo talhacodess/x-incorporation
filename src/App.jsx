@@ -3,6 +3,7 @@ import Header from './header/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/home/Home';
 import Footer from './footer/Footer';
+import { Route,Routes } from 'react-router';
 
 function App() {
 
@@ -10,7 +11,11 @@ function App() {
   return (
    <>
    <Header/>  
-   <Home/> 
+   <Routes>
+    <Route path='/' element={<Home/>}/>
+    
+   </Routes>
+  
    <Footer/>
    </>
   )
