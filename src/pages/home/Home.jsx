@@ -55,13 +55,13 @@ function Home() {
                                   <div className='ring'>
                                   <img className='w-100' src={ring} alt="" />
                                   </div>
-                                  <div className='float-icon-1'>
+                                  <div className='float-icon-1 d-none d-sm-block'>
                                   <img  src={clothing} alt="" />
                                   </div>
-                                  <div className='float-icon-2'>
+                                  <div className='float-icon-2 d-none d-sm-block'>
                                   <img  src={packaging} alt="" />
                                   </div>
-                                  <div className='float-icon-3'>
+                                  <div className='float-icon-3 d-none d-sm-block'>
                                   <img  src={jackets} alt="" />
                                   </div>
                               
@@ -74,7 +74,7 @@ function Home() {
                     </Container>
                 </div>
             </Container>
-            <div className='' style={{ backgroundColor: '#f0f8ff', padding: '20px' }}>
+            <div className='d-none' style={{ backgroundColor: '#f0f8ff', padding: '20px' }}>
                 <Container>
                     <div className='Home-sec2'>
                         <div className='text-center'>
@@ -116,7 +116,7 @@ function Home() {
                 </Container>
             </div>
 
-            <Container className=''>
+            <Container className='d-none'>
                 <div>
                     <h1 className='home-h1 mt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>Employment <span style={{ color: '#ee334b' }}>Opportunities</span></h1>
                 </div>
@@ -167,7 +167,7 @@ function Home() {
 
             </Container>
 
-            <div className='' style={{ backgroundColor: '#f0f8ff', padding: '20px' }}>
+            <div className='d-none' style={{ backgroundColor: '#f0f8ff', padding: '20px' }}>
                 <Container>
                     <div>
                         <h1 className='home-h1 mt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>CEO  <span style={{ color: '#ee334b' }}>Message</span></h1>
@@ -218,7 +218,7 @@ function Home() {
             </div>
 
 
-            <Container className=''>
+            <Container className='d-none'>
                 <div className='d-flex flex-column align-items-center pt-5 my-5 gap-3 '>
                     <button className='btn-home-2'>
                         Contact US <span className='arrow'>➜</span>

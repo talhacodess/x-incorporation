@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
   
   
   }
@@ -320,34 +321,39 @@
 .float-icon-1{
   position: absolute;
   top: 0;
-  left: -30px;
+  left: -5px;
 }
 .float-icon-2{
   position: absolute;
   top: 0;
-  right: 0;
+  right: 43px;
 }
 .float-icon-3{
   position: absolute;
   bottom: 0;
+  left: 75px;
 }
 
 @media screen and (max-width:600px){
-  
-  .home-h1 {
-    font-size: 25px !important;
-  }
-
-.home-h2 {
-  font-size: 13px !important;
+  h1.home-h1 {
+    font-size: 20px;
 }
-.p-home {
-  font-size: 14px !important;
+h2.home-h2 {
+  font-size: 15px;
 }
-.btn-home {
-  padding: 10px 15px !important;
-  border-radius: 25px !important;
-  font-size: 15px !important;
+p.p-home {
+  font-size: 13px;
 }
+button.btn-home {
+  font-size: 12px;
+  padding: 10px 15px;
+}
+div#vanta {
+  padding-top: 238px !important;
+}
+.main-circle {
+  top: -14px;
+}
+ 
 
 }

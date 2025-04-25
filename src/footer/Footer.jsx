@@ -8,7 +8,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 function Footer() {
   return (
     <>
-    <div className='' style={{ backgroundColor: '#f0f8ff', padding: '20px' }}>
+    <div className='d-none' style={{ backgroundColor: '#f0f8ff', padding: '20px' }}>
     <Container>
         <div className='row'>
 
