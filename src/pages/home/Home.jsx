@@ -74,7 +74,7 @@ function Home() {
                     </Container>
                 </div>
             </Container>
-            <div className='' style={{ backgroundColor: '#f0f8ff', }}>
+            <div className=' overflow-hidden' style={{ backgroundColor: '#f0f8ff', }}>
                 <Container>
                     <div className='Home-sec2'>
                         <div className='text-center'>
@@ -116,7 +116,7 @@ function Home() {
                 </Container>
             </div>
 
-            <Container className=''>
+            <Container className=' overflow-hidden'>
                 <div>
                     <h1 className='home-h1 mt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>Employment <span style={{ color: '#ee334b' }}>Opportunities</span></h1>
                 </div>
@@ -167,7 +167,7 @@ function Home() {
 
             </Container>
 
-            <div className='' style={{ backgroundColor: '#f0f8ff' }}>
+            <div className=' overflow-hidden' style={{ backgroundColor: '#f0f8ff' }}>
                 <Container>
                     <div>
                         <h1 className='home-h1 pt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>CEO  <span style={{ color: '#ee334b' }}>Message</span></h1>
@@ -218,7 +218,7 @@ function Home() {
             </div>
 
 
-            <Container className=''>
+            <Container className=' overflow-hidden'>
                 <div className='d-flex flex-column align-items-center pt-5 my-5 gap-3 '>
                     <button className='btn-home-2'>
                         Contact US <span className='arrow'>➜</span>
