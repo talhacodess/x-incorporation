@@ -74,7 +74,7 @@ function Home() {
                     </Container>
                 </div>
             </Container>
-            <div className='d-none' style={{ backgroundColor: '#f0f8ff', padding: '20px' }}>
+            <div className='' style={{ backgroundColor: '#f0f8ff', }}>
                 <Container>
                     <div className='Home-sec2'>
                         <div className='text-center'>
@@ -116,14 +116,14 @@ function Home() {
                 </Container>
             </div>
 
-            <Container className='d-none'>
+            <Container className=''>
                 <div>
                     <h1 className='home-h1 mt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>Employment <span style={{ color: '#ee334b' }}>Opportunities</span></h1>
                 </div>
-                <div className='row m-5 justify-content-between align-items-center g-5'>
+                <div className='row mt-3  justify-content-between align-items-center g-2'>
 
                     <div className='col-lg-6'>
-                        <img src={career} alt="" height={650} className='w-100 rounded shadow' />
+                        <img src={career} alt=""  height={650} className='w-100 rounded object-fit-cover shadow' />
 
                     </div>
                     <div className='col-lg-6'>
@@ -167,12 +167,12 @@ function Home() {
 
             </Container>
 
-            <div className='d-none' style={{ backgroundColor: '#f0f8ff', padding: '20px' }}>
+            <div className='' style={{ backgroundColor: '#f0f8ff' }}>
                 <Container>
                     <div>
-                        <h1 className='home-h1 mt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>CEO  <span style={{ color: '#ee334b' }}>Message</span></h1>
+                        <h1 className='home-h1 pt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>CEO  <span style={{ color: '#ee334b' }}>Message</span></h1>
                     </div>
-                    <div className='row m-5 justify-content-between align-items-center g-5'>
+                    <div className='row mt-1 justify-content-between align-items-center g-5'>
 
                         <div className='col-lg-6'>
 
@@ -207,7 +207,7 @@ function Home() {
                         </div>
 
                         <div className='col-lg-6'>
-                            <img src={ceo} alt="" height={600} className='w-100 rounded shadow' />
+                            <img src={ceo} alt="" height={600} className='w-100 rounded shadow object-fit-cover' />
 
                         </div>
 
@@ -218,7 +218,7 @@ function Home() {
             </div>
 
 
-            <Container className='d-none'>
+            <Container className=''>
                 <div className='d-flex flex-column align-items-center pt-5 my-5 gap-3 '>
                     <button className='btn-home-2'>
                         Contact US <span className='arrow'>➜</span>
