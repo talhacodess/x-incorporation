@@ -13,6 +13,7 @@ import ceo from '../../assets/ceo.jpg'
 import {HiOutlineMailOpen} from 'react-icons/hi'
 import {HiOutlinePhone} from 'react-icons/hi'
 import {HiOutlinePaperAirplane} from 'react-icons/hi'
+import CircularGallery from '../../components/CircularGallery'
 
 function Home() {
     useEffect(() => {
@@ -278,6 +279,13 @@ function Home() {
                 </div>
               </form>
             </div>
+
+            </Container>
+
+            <Container>
+            <div style={{ height: '600px', position: 'relative' }}>
+  <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} />
+</div>
 
             </Container>
         </>
