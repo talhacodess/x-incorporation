@@ -45,7 +45,7 @@ useEffect(()=>{
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link  href="#Our-Story">Our Story X-Incorporation</Nav.Link>
+                  <Nav.Link  href="#Our-Story" aria-label="Close">Our Story X-Incorporation</Nav.Link>
                   <Nav.Link href="#Employment-Opportunities">Employment Opportunities</Nav.Link>
                   <Nav.Link href="#CEO-Message">CEO Message</Nav.Link>
                   <Nav.Link href="#Contact-US">Contact US</Nav.Link>

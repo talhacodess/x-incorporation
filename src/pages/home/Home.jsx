@@ -120,7 +120,7 @@ function Home() {
                 <div>
                     <h1 className='home-h1 mt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>Employment <span style={{ color: '#ee334b' }}>Opportunities</span></h1>
                 </div>
-                <div className='row my-3  justify-content-between align-items-center g-2'>
+                <div className='row my-3  justify-content-between align-items-center g-5'>
 
                     <div className='col-lg-6'>
                         <img src={career} alt=""  height={650} className='w-100 rounded object-fit-cover shadow' />
