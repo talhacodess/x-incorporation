@@ -10,9 +10,9 @@ import clothing from '../../assets/clothing.png'
 import jackets from '../../assets/jackets.png'
 import packaging from '../../assets/packaging.png'
 import ceo from '../../assets/ceo.jpg'
-import {HiOutlineMailOpen} from 'react-icons/hi'
-import {HiOutlinePhone} from 'react-icons/hi'
-import {HiOutlinePaperAirplane} from 'react-icons/hi'
+import { HiOutlineMailOpen } from 'react-icons/hi'
+import { HiOutlinePhone } from 'react-icons/hi'
+import { HiOutlinePaperAirplane } from 'react-icons/hi'
 import CircularGallery from '../../components/CircularGallery'
 
 function Home() {
@@ -33,7 +33,7 @@ function Home() {
     }, [])
     return (
         <>
-            <Container fluid  className=' p-0'>
+            <Container fluid className=' p-0'>
                 <div className='bg' id='vanta'>
                     <Container> <div className='main-home'>
                         <div className='row justify-content-center align-items-center'>
@@ -49,24 +49,24 @@ function Home() {
                                 </div>
                             </div>
                             <div className='col-lg-6'>
-                              <div  className='main-ring'>
-                              <div className='main-circle'>
-                                    <img  className='w-100' src={circleMain} alt="" />
+                                <div className='main-ring'>
+                                    <div className='main-circle'>
+                                        <img className='w-100' src={circleMain} alt="" />
                                     </div>
-                                  <div className='ring'>
-                                  <img className='w-100' src={ring} alt="" />
-                                  </div>
-                                  <div className='float-icon-1 d-none d-sm-block'>
-                                  <img  src={clothing} alt="" />
-                                  </div>
-                                  <div className='float-icon-2 d-none d-sm-block'>
-                                  <img  src={packaging} alt="" />
-                                  </div>
-                                  <div className='float-icon-3 d-none d-sm-block'>
-                                  <img  src={jackets} alt="" />
-                                  </div>
-                              
-                              </div>
+                                    <div className='ring'>
+                                        <img className='w-100' src={ring} alt="" />
+                                    </div>
+                                    <div className='float-icon-1 d-none d-sm-block'>
+                                        <img src={clothing} alt="" />
+                                    </div>
+                                    <div className='float-icon-2 d-none d-sm-block'>
+                                        <img src={packaging} alt="" />
+                                    </div>
+                                    <div className='float-icon-3 d-none d-sm-block'>
+                                        <img src={jackets} alt="" />
+                                    </div>
+
+                                </div>
 
                             </div>
                         </div>
@@ -75,7 +75,7 @@ function Home() {
                     </Container>
                 </div>
             </Container>
-            <div className=' overflow-hidden'  id='Our-Story' style={{ backgroundColor: '#f0f8ff', }}>
+            <div className=' overflow-hidden' id='Our-Story' style={{ backgroundColor: '#f0f8ff', }}>
                 <Container>
                     <div className='Home-sec2'>
                         <div className='text-center'>
@@ -124,7 +124,7 @@ function Home() {
                 <div className='row my-3  justify-content-between align-items-center g-5'>
 
                     <div className='col-lg-6'>
-                        <img src={career} alt=""  height={650} className='w-100 rounded object-fit-cover shadow' />
+                        <img src={career} alt="" height={650} className='w-100 rounded object-fit-cover shadow' />
 
                     </div>
                     <div className='col-lg-6'>
@@ -164,6 +164,18 @@ function Home() {
 
                     </div>
 
+                </div>
+
+            </Container>
+            <Container>
+                <div>
+                    <h1 className='home-h1 mt-5 text-center' style={{ color: '#000', fontSize: '40px', textTransform: 'uppercase' }}>Expanding<span style={{ color: '#ee334b' }}> Horizons Across Continents</span></h1>
+                    <p className='p-home-2 text-center'>We are proud to have established a strong footprint around the world. From Asia to Europe and North America, our projects span multiple industries, reflecting our commitment to excellence, innovation, and global collaboration.</p>
+                </div>
+
+
+                <div style={{ height: '600px', position: 'relative' }}>
+                    <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} />
                 </div>
 
             </Container>
@@ -230,7 +242,7 @@ function Home() {
                         <div className='col-lg-4'>
                             <div className='icon-contact-content  d-flex'>
                                 <p className='icon-contact'>
-                                    <HiOutlineMailOpen size={25}/>
+                                    <HiOutlineMailOpen size={25} />
                                 </p>
                                 <p className='p-home-2'>example@gmail.Com</p>
                             </div>
@@ -238,7 +250,7 @@ function Home() {
                         <div className='col-lg-4'>
                             <div className='icon-contact-content  d-flex'>
                                 <p className='icon-contact'>
-                                    <HiOutlinePhone size={25}/>
+                                    <HiOutlinePhone size={25} />
                                 </p>
                                 <p className='p-home-2'>+ 00 234 (9606)170</p>
                             </div>
@@ -246,7 +258,7 @@ function Home() {
                         <div className='col-lg-4'>
                             <div className='icon-contact-content  d-flex'>
                                 <p className='icon-contact'>
-                                    <HiOutlinePaperAirplane size={25}/>
+                                    <HiOutlinePaperAirplane size={25} />
                                 </p>
                                 <p className='p-home-2'>Join Us on Telegram</p>
                             </div>
@@ -255,39 +267,34 @@ function Home() {
                     </div>
                 </div>
                 <div className='form-contact'>
-              <form action=""  >
-                <div className='row'>
-                  <div className='col'>
-                    <input type="text"  className='form-field w-100' placeholder='Name' />
-                  </div>
-                  <div className='col'>
-                  <input type="email" className='form-field w-100' placeholder='Email' />
-                  </div>
-                </div>
-                <div className='row'>
-                  <div className='col'>
-                    <input type="phone"  className='form-field w-100' placeholder='Phone' />
-                  </div>
-                  <div className='col'>
-                  <input type="text" className='form-field w-100' placeholder='Website' />
-                  </div>
-                </div>
-                <div>
-               <textarea name="message" id="message" placeholder='Message' rows={4} className='form-field w-100'></textarea>
-                <button type="submit">Submit Message</button>
+                    <form action=""  >
+                        <div className='row'>
+                            <div className='col'>
+                                <input type="text" className='form-field w-100' placeholder='Name' />
+                            </div>
+                            <div className='col'>
+                                <input type="email" className='form-field w-100' placeholder='Email' />
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div className='col'>
+                                <input type="phone" className='form-field w-100' placeholder='Phone' />
+                            </div>
+                            <div className='col'>
+                                <input type="text" className='form-field w-100' placeholder='Website' />
+                            </div>
+                        </div>
+                        <div>
+                            <textarea name="message" id="message" placeholder='Message' rows={4} className='form-field w-100'></textarea>
+                            <button type="submit">Submit Message</button>
 
+                        </div>
+                    </form>
                 </div>
-              </form>
-            </div>
 
             </Container>
 
-            <Container>
-            <div style={{ height: '600px', position: 'relative' }}>
-  <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} />
-</div>
 
-            </Container>
         </>
 
     )
